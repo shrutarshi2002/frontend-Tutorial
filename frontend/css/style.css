@@ -1,0 +1,122 @@
+body{
+    background-color: #ACB780;
+}
+/* z-index */
+/* .container{
+    position:relative;
+
+}
+.black-box{
+    position: relative;
+    
+    border: 2px solid black;
+    margin: 30px;
+    height: 120px;
+    background-color: rgb(50, 46, 46);
+}
+.grey-box{
+    position: absolute;
+    z-index: 3;
+    background-color: grey;
+    height: 60px;
+    width: 70%;
+    left: 50px;
+    top: 50px;
+}
+.green-box{
+    position: absolute;
+    z-index: 2;
+    width: 35%;
+    left: 270px;
+    top: -15px;
+    height: 100px;
+    background-color: greenyellow;
+} */
+
+/* float */
+/* .box1{
+    background: blue;
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+    width: 200px;
+}
+.box2{
+    background: rgb(163, 13, 73);
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+    width: 200px;
+}
+.box3{
+    background: rgb(122, 142, 26);
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+    width: 200px;
+}
+div{
+    float: left;
+    padding: 15px;
+} */
+div.gallary{
+    float: left;
+    margin: 2px;
+    border: 1px solid #ccc;
+    margin-left: 4%;
+}
+div.gallary img{
+    width: 400px;
+    height:400px;
+}
+div.desc{
+    text-align: center;
+    padding: 15px;
+}
+div.gallary:hover{
+    border: 1px solid #777;
+    opacity: 0.7;
+    
+}
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.navbar li{
+    float: left;
+}
+.navbar li a{
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #ccc;
+    text-align: center;
+}
+.landpage{
+    position: relative;
+    text-align: center;
+    color: rgb(176, 10, 10);
+    font-size: larger;
+}
+.cent{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.anime{
+    position: relative;
+    animation-name: exam;
+    animation-duration: 5s;
+}
+@keyframes exam {
+    0% {left: 0px; top: 0px;}
+    25% {left: 200px; top: 0px;}
+    50% {left: 400px; top: 0px;}
+    75% {left: 500px; top: 0px;}
+    100% {left: 600px; top: 0px;}
+
+    
+}
