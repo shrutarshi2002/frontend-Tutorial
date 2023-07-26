@@ -1,0 +1,34 @@
+.landing{
+    text-align: center;
+    
+}
+.tech{
+    margin-top: 4%;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.about{
+    text-align: left;
+    width:50%;
+    margin: 100px auto 100px auto;
+}
+.gif{
+    float: left;
+    margin-left: 15%;
+}
+p{
+    text-align: left;
+    position: relative;
+    top: 200px;
+    left: 2%;
+}
+.contact{
+    text-align: center;
+}
+form{
+    border-style: solid;
+    border-width: thick;
+    width: 250px;
+}
+    
