@@ -1,0 +1,126 @@
+/* .first{
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    position: relative;
+    left: 20px;
+
+}
+.second{
+    background-color: rgb(58, 26, 155);
+    height: 200px;
+    width: 200px;
+    z-index: 2;
+    position: absolute;
+    top: 12px;
+    
+}
+.third{
+    background-color: rgb(156, 18, 69);
+    height: 200px;
+    width: 200px;
+    z-index: 3;
+    position: absolute;
+    top: 20px;
+    left: 16px;
+    
+} */
+/* .first{
+    background-color: brown;
+    height: 70px;
+    width: 70px;
+    
+}
+.second{
+    background-color: rgb(23, 15, 129);
+    height: 70px;
+    width: 70px;
+}
+.third{
+    background-color: rgb(101, 7, 56);
+    height: 70px;
+    width: 70px;
+}
+div{
+    float: left;
+    margin-left: 20px;
+} */
+.photos{
+    text-align: center;
+
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    color: rgb(113, 15, 128);
+}
+div.gallary{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+    margin-left: 3%;
+}
+div.gallary img{
+    width: 100%;
+    height: auto;
+
+}
+div.gallary:hover{
+    border: 2px solid #777;
+    opacity: 0.7;
+}
+div .desc{
+    text-align: center;
+    padding-left: 15px;
+    font-weight: bold;
+}
+ul{
+    list-style-type: none;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+li a:hover{
+    background-color: rgb(89, 13, 101);
+}
+
+.ldpage{
+    position: relative;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(52, 7, 47);
+    
+}
+.centtext{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+.naruto{
+    position: relative;
+    animation-name:naruto;
+    animation-duration: 6s;
+}
+@keyframes naruto {
+    0% {left: 0px;top: 0px;}
+    25% {left: 100px; top: 0px;}
+    50%{left: 200px;top: 0px;}
+    75%{left: 300px; top: 0px;}
+    100%{left: 500px;top: 0px;}
+    
+}

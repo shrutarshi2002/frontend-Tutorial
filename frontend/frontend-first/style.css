@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+}
+.about{
+    text-align: center;
+}
+.about h1{
+    color: rgb(67, 5, 24);
+    font-family: 'Borel', cursive;
+    font-size: 60px;
+}
+.about p{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: -93px;
+}
+.tech{
+    text-align: center;
+}
+.tech h1{
+    color: rgb(67, 5, 24);
+    font-family: 'Borel', cursive;
+    font-size: 60px;
+
+}
+li{
+    text-align: center;
+    float: left;
+    padding-left: 2%;
+    list-style: none;
+    border-style: solid;
+    border-width: thick;
+    border-color: rgb(75, 71, 71);
+    background-color: aquamarine;
+    font-weight: bold;
+    font-size: 70px;
+    margin-left: 3%;
+}
+.vidintro{
+    text-align: center;
+    padding-top: 14%;
+}
+.vidintro h1{
+    color: rgb(67, 5, 24);
+    font-family: 'Borel', cursive;
+    font-size: 60px;
+
+}
+
+.contact h1{
+    color: rgb(67, 5, 24);
+    font-family: 'Borel', cursive;
+    font-size: 60px;
+
+}
